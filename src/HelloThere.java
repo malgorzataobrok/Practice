@@ -1,5 +1,9 @@
 public class HelloThere {
-        static void helloPeople(String nationality){
-            System.out.println("Hi " + nationality + "people!");
-        }
+
+    private String nationality = "french";
+
+    static void helloPeople(String nationality) {
+
+        System.out.println("Hi " + nationality + "people!");
     }
+}
